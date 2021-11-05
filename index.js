@@ -1,7 +1,6 @@
 var cities = {
   "Europe": {
     // switz
-    "Zurich": { lat: 47.376887, lng: 8.541694 },
 
     // italy
     "Rome": { lat: 41.902783, lng: 12.496366 },
@@ -28,6 +27,9 @@ var cities = {
     // china
     "Hong Kong": { lat: 22.396428, lng: 114.109497 },
     "Beijing": { lat: 39.9042, lng: 116.407396 },
+
+    //singapore
+    "Singapore":{lat:1.327369920, lng: 103.823598769}
   },
 
   "Australia": {
@@ -43,10 +45,14 @@ var cities = {
     "New York": { lat: 40.712775, lng: -74.005973 },
     "Boston": { lat: 42.360082, lng: -71.05888 },
     "Seattle": { lat: 47.606209, lng: -122.332071 },
-    "Olympia": { lat: 47.037874, lng: -122.900695 },
+    "Austin": {lat:30.281495824, lng:-97.74049898},
 
     // canada
     "Vancouver": { lat: 49.282729, lng: -123.120738 },
+  },
+  "Africa":{
+    "Cape Town": {lat: -33.898698, lng: 18.4798117},
+    //-33.89869871626943, 18.479811732213903
   }
 };
 
@@ -65,7 +71,7 @@ function initMap() {
   var map = new google.maps.Map(document.getElementById("map"), {
     gestureHandling: "auto",
     zoom: 4,
-    center: { lat: 37.871593, lng: -122.272747 }, // berkeley
+    center: { lat: 37.886925, lng: -122.210777 }, // menlo park
     minZoom: 3,
     maxZoom: 20,
     mapTypeId: google.maps.MapTypeId.HYBRID
@@ -105,16 +111,17 @@ function initMap() {
     google.maps.event.addListener(marker, "click", zoomInMarker(marker));
   }
 
-  // add berkeley as base
-  var berkeley = { lat: 37.871593, lng: -122.272747 };
+  // add menlo park as base
+  //37.46690587312503, -122.20456336674557
+  var menloPark = { lat: 37.4669058, lng: -122.2045633 };
   var temp = new google.maps.Marker({
     label: {
-      text: "Berkeley",
+      text: "menlo park",
       color: "white",
       fontSize: "10px"
     },
     animation: google.maps.Animation.DROP,
-    position: berkeley,
+    position: menloPark,
     map: map
   });
 
@@ -162,6 +169,10 @@ function initMap() {
           map.setCenter({ lat: 47.050168, lng: 8.309307 });
         } else if (country == "Australia") {
           map.setCenter({ lat: -28.953512, lng: 135.857048 });
+        } else if (country == "Africa") {
+          map.setCenter({ lat: -24.4457910, lng: 25.92306747 });
+        } else if (country == "South America") {
+          map.setCenter({ lat: 6.998862, lng: -58.11546371 });
         }
 
         function unvisited(country) {
@@ -171,7 +182,7 @@ function initMap() {
           });
         }
         // check if visited country yet
-        if (country === "Africa" || country === "South America") {
+        if (country === "South America") {
           return unvisited(country);
         } else {
           map.setZoom(5);
@@ -190,7 +201,7 @@ function initMap() {
     map.setZoom(3);
   };
   document.getElementById("all").onclick = all;
-  // People kept asking me if I've been in Berkeley my entire life
+  // People kept asking me if I've been in menloPark my entire life
   window.onload = all; 
 
   // clear
@@ -209,7 +220,7 @@ function initMap() {
 
   // home
   document.getElementById("home").onclick = function() {
-    map.setCenter(berkeley);
+    map.setCenter(menloPark);
   };
 
   // BUTTONS END
