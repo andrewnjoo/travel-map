@@ -21,7 +21,7 @@ var cities = {
     // germany
     "Berlin": { lat: 52.520007, lng: 13.404954 },
     "Cologne": { lat: 50.937531, lng: 6.960279 },
-    "Freiburg": {lat:48.206394, lng: 7.858726}
+    "Freiburg": {lat:48.206394, lng: 7.858726},
 
     // france
     "Paris": { lat: 48.856614, lng: 2.352222 },
