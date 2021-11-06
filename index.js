@@ -86,6 +86,7 @@ var cities = {
     "Dallas": {lat:32.8036733, lng:-96.770444},
     "San Antonio": {lat:29.5069808, lng:-98.475975385},
     "Honolulu": {lat:21.306308, lng:-157.85877},
+    "Washington D.C.": {lat:38.90341, lng:-77.0374563},
 
     //mexico
     "Cabo San Lucas": {lat:22.99646557, lng:-109.910604},
