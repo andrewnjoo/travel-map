@@ -183,7 +183,7 @@ function initMap() {
   var menloPark = { lat: 37.4669058, lng: -122.2045633 };
   var temp = new google.maps.Marker({
     label: {
-      text: "menlo park",
+      text: "Menlo Park",
       color: "white",
       fontSize: "10px"
     },
