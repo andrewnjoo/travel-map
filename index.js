@@ -91,6 +91,8 @@ var cities = {
     "Las Vegas": { lat: 36.169941, lng: -115.13983 },
     "Los Angeles": { lat: 34.052234, lng: -118.243685 },
     "San Diego": { lat: 32.715738, lng: -117.161084 },
+    "Lake Tahoe": { lat: 39.108065306, lng: -120.03451876 },
+    "San Francisco": { lat: 37.774136, lng: -122.4190519 },
     "New York": { lat: 40.712775, lng: -74.005973 },
     "Boston": { lat: 42.360082, lng: -71.05888 },
     "Washington D.C.": {lat:38.90341, lng:-77.0374563},
