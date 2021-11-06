@@ -43,6 +43,9 @@ var cities = {
   },
 
   "Asia": {
+    //kazakh
+    "Nur-Sultan": { lat: 51.161007, lng: 71.4659822 },
+    
     //india
     "New Delhi": { lat: 28.614104, lng: 77.20887 },
     "Jaipur": { lat: 26.910907, lng: 75.78578 },
