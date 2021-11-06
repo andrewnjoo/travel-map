@@ -46,6 +46,9 @@ var cities = {
     "Boston": { lat: 42.360082, lng: -71.05888 },
     "Seattle": { lat: 47.606209, lng: -122.332071 },
     "Austin": {lat:30.281495824, lng:-97.74049898},
+    "Dallas": {lat:32.8036733, lng:-96.770444},
+    "San Antonio": {lat:29.5069808, lng:-98.475975385},
+
 
     // canada
     "Vancouver": { lat: 49.282729, lng: -123.120738 },
