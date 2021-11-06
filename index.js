@@ -18,9 +18,28 @@ var cities = {
 
     // france
     "Paris": { lat: 48.856614, lng: 2.352222 },
+    
+    //spain
+    "Madrid": { lat: 40.40675185, lng: -3.6994192871 },
+    
+    //norway
+    "Tromso": { lat: 69.6656179, lng: 18.99390165 },
+
+    //greece
+    "Athens": { lat: 38.0922492, lng: 23.79787679 },
+    
+    //cyprus
+    "Paphos": { lat: 34.773563719475746, lng: 32.42917429784894 },
   },
 
   "Asia": {
+    //india
+    "New Delhi": { lat: 28.614104, lng: 77.20887 },
+
+    //indonesia
+    "Jakarta": { lat: -6.2017397, lng: 106.89204434 },
+    "Bali": { lat: -8.394588566, lng: 115.1746802 },
+
     // japan
     "Tokyo": { lat: 35.689487, lng: 139.691706 },
 
@@ -57,8 +76,13 @@ var cities = {
     "Vancouver": { lat: 49.282729, lng: -123.120738 },
   },
   "Africa":{
+    //egypt
+    "Cairo": {lat: 30.0475123, lng: 31.235489},
+    //south africa
     "Cape Town": {lat: -33.898698, lng: 18.4798117},
-    //-33.89869871626943, 18.479811732213903
+    
+    //madagascar
+    "Antananarivo": {lat: -18.887579, lng: 47.512176},
   }
 };
 
