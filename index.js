@@ -49,7 +49,6 @@ var cities = {
     //maldives
     "Maldives": { lat: 4.17575, lng: 73.509855 },
 
-
     //kazakh
     "Nur-Sultan": { lat: 51.161007, lng: 71.4659822 },
 
@@ -62,7 +61,8 @@ var cities = {
     "Bali": { lat: -8.394588566, lng: 115.1746802 },
     "Raja Ampat": { lat: -0.1789009, lng: 130.97536 },
 
-
+    // korea
+    "Seoul": { lat: 37.554694, lng: 126.9863232 },
     // japan
     "Tokyo": { lat: 35.689487, lng: 139.691706 },
 
