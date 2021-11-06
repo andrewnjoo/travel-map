@@ -28,6 +28,9 @@ var cities = {
     "Madrid": { lat: 40.40675185, lng: -3.6994192871 },
     "Barcelona": { lat: 41.3867033, lng: 2.168222 },
     "Ibiza": { lat: 38.9059562, lng: 1.419345 },
+    
+    //portugal
+    "Lisbon": { lat: 38.7227148, lng: -9.1402474 },
 
     //norway
     "Tromso": { lat: 69.6656179, lng: 18.99390165 },
@@ -43,9 +46,13 @@ var cities = {
   },
 
   "Asia": {
+    //maldives
+    "Maldives": { lat: 4.17575, lng: 73.509855 },
+
+
     //kazakh
     "Nur-Sultan": { lat: 51.161007, lng: 71.4659822 },
-    
+
     //india
     "New Delhi": { lat: 28.614104, lng: 77.20887 },
     "Jaipur": { lat: 26.910907, lng: 75.78578 },
@@ -79,17 +86,19 @@ var cities = {
 
   "North America": {
     // usa
+    "Seattle": { lat: 47.606209, lng: -122.332071 },
     "Las Vegas": { lat: 36.169941, lng: -115.13983 },
     "Los Angeles": { lat: 34.052234, lng: -118.243685 },
     "San Diego": { lat: 32.715738, lng: -117.161084 },
     "New York": { lat: 40.712775, lng: -74.005973 },
     "Boston": { lat: 42.360082, lng: -71.05888 },
-    "Seattle": { lat: 47.606209, lng: -122.332071 },
+    "Washington D.C.": {lat:38.90341, lng:-77.0374563},
     "Austin": {lat:30.281495824, lng:-97.74049898},
     "Dallas": {lat:32.8036733, lng:-96.770444},
     "San Antonio": {lat:29.5069808, lng:-98.475975385},
+    "Houston": {lat:29.761413, lng:-95.3706327},
+    "Orlando": {lat:28.5381547, lng:-81.3787351},
     "Honolulu": {lat:21.306308, lng:-157.85877},
-    "Washington D.C.": {lat:38.90341, lng:-77.0374563},
 
     //mexico
     "Cabo San Lucas": {lat:22.99646557, lng:-109.910604},
