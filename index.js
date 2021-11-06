@@ -48,7 +48,10 @@ var cities = {
     "Austin": {lat:30.281495824, lng:-97.74049898},
     "Dallas": {lat:32.8036733, lng:-96.770444},
     "San Antonio": {lat:29.5069808, lng:-98.475975385},
-
+    
+    //mexico
+    "Cabo San Lucas": {lat:22.99646557, lng:-109.910604},
+    "Tulum": {lat:20.2146102, lng:-87.462878663},
 
     // canada
     "Vancouver": { lat: 49.282729, lng: -123.120738 },
