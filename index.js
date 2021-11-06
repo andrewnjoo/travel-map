@@ -2,14 +2,17 @@ var cities = {
   "Europe": {
     // switz
 
+    // netherlands
+    "Amsterdam": { lat: 52.366117, lng: 4.906487 },
+
     // italy
     "Rome": { lat: 41.902783, lng: 12.496366 },
+    "Florence": { lat: 43.769038, lng: 11.2558944 },
     "Venice": { lat: 45.440847, lng: 12.315515 },
 
-    // england
+    // UK
     "London": { lat: 51.507351, lng: -0.127758 },
-
-    // ireland
+    "Edinburgh": { lat: 55.952604, lng: -3.19124593 },
     "Dublin": { lat: 53.349805, lng: -6.26031 },
 
     // germany
@@ -18,27 +21,37 @@ var cities = {
 
     // france
     "Paris": { lat: 48.856614, lng: 2.352222 },
+    "Monaco": { lat: 43.73838088, lng: 7.420744918 },
+    "Courchevel": { lat: 45.430625, lng: 6.620229 },
     
     //spain
     "Madrid": { lat: 40.40675185, lng: -3.6994192871 },
-    
+    "Barcelona": { lat: 41.3867033, lng: 2.168222 },
+    "Ibiza": { lat: 38.9059562, lng: 1.419345 },
+
     //norway
     "Tromso": { lat: 69.6656179, lng: 18.99390165 },
+    "Oslo": { lat: 59.914038, lng: 10.751365 },
 
     //greece
     "Athens": { lat: 38.0922492, lng: 23.79787679 },
     
     //cyprus
     "Paphos": { lat: 34.773563719475746, lng: 32.42917429784894 },
+    //russia
+    "St. Petersburg": { lat: 59.929348, lng: 30.3589912 },
   },
 
   "Asia": {
     //india
     "New Delhi": { lat: 28.614104, lng: 77.20887 },
+    "Jaipur": { lat: 26.910907, lng: 75.78578 },
 
     //indonesia
     "Jakarta": { lat: -6.2017397, lng: 106.89204434 },
     "Bali": { lat: -8.394588566, lng: 115.1746802 },
+    "Raja Ampat": { lat: -0.1789009, lng: 130.97536 },
+
 
     // japan
     "Tokyo": { lat: 35.689487, lng: 139.691706 },
@@ -46,9 +59,14 @@ var cities = {
     // china
     "Hong Kong": { lat: 22.396428, lng: 114.109497 },
     "Beijing": { lat: 39.9042, lng: 116.407396 },
+    "Xiamen": { lat: 24.482014, lng: 118.088045 },
+
+    //thai
+    "Bangkok":{lat:13.74867, lng: 100.4829244},
+    "Phuket":{lat:7.894227767543605, lng: 98.3929683326708},
 
     //singapore
-    "Singapore":{lat:1.327369920, lng: 103.823598769}
+    "Singapore":{lat:1.327369920, lng: 103.823598769},
   },
 
   "Australia": {
@@ -67,7 +85,8 @@ var cities = {
     "Austin": {lat:30.281495824, lng:-97.74049898},
     "Dallas": {lat:32.8036733, lng:-96.770444},
     "San Antonio": {lat:29.5069808, lng:-98.475975385},
-    
+    "Honolulu": {lat:21.306308, lng:-157.85877},
+
     //mexico
     "Cabo San Lucas": {lat:22.99646557, lng:-109.910604},
     "Tulum": {lat:20.2146102, lng:-87.462878663},
@@ -78,6 +97,8 @@ var cities = {
   "Africa":{
     //egypt
     "Cairo": {lat: 30.0475123, lng: 31.235489},
+    "Hurghada": {lat: 27.2497707, lng: 33.8107667},
+
     //south africa
     "Cape Town": {lat: -33.898698, lng: 18.4798117},
     
