@@ -1,6 +1,7 @@
 var cities = {
   "Europe": {
     // switz
+    "Zurich": { lat: 47.37997, lng: 8.544727 },
 
     // netherlands
     "Amsterdam": { lat: 52.366117, lng: 4.906487 },
