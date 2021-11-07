@@ -140,7 +140,7 @@ var cities = {
     "Orlando": {lat:28.5381547, lng:-81.3787351},
 
     //mexico
-    "Cabo San Lucas": {lat:22.99646557, lng:-109.910604},
+    "Cabo San Lucas": {lat:22.8838959, lng:-109.911845},
     "Tulum": {lat:20.2146102, lng:-87.462878663},
 
     // canada
