@@ -16,6 +16,7 @@ var cities = {
     "Winchester": { lat: 51.059731, lng: -1.3103569 },
     "Edinburgh": { lat: 55.952604, lng: -3.19124593 },
     "Dublin": { lat: 53.349805, lng: -6.26031 },
+    "Skydiving": { lat: 52.485983, lng: 0.091165 },
 
     // germany
     "Berlin": { lat: 52.520007, lng: 13.404954 },
