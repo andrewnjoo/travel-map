@@ -60,6 +60,8 @@ var cities = {
     //indonesia
     "Jakarta": { lat: -6.2017397, lng: 106.89204434 },
     "Bali": { lat: -8.394588566, lng: 115.1746802 },
+    "Jogja": { lat: -7.79538103, lng: 110.368833 },
+    "Lombok": { lat: -8.6602898, lng: 116.328035 },
     "Raja Ampat": { lat: -0.1789009, lng: 130.97536 },
 
     // korea
@@ -93,6 +95,8 @@ var cities = {
     "San Diego": { lat: 32.715738, lng: -117.161084 },
     "Lake Tahoe": { lat: 39.108065306, lng: -120.03451876 },
     "San Francisco": { lat: 37.774136, lng: -122.4190519 },
+    "Portland": { lat: 45.51966, lng: -122.675034 },
+    "Black Rock City": { lat: 40.9108653, lng: -119.0560009 },
     "New York": { lat: 40.712775, lng: -74.005973 },
     "Boston": { lat: 42.360082, lng: -71.05888 },
     "Washington D.C.": {lat:38.90341, lng:-77.0374563},
