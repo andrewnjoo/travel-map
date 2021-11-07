@@ -118,6 +118,7 @@ var cities = {
     "New York": { lat: 40.712775, lng: -74.005973 },
     "Boston": { lat: 42.360082, lng: -71.05888 },
     "Washington D.C.": {lat:38.90341, lng:-77.0374563},
+    "Baltimore": {lat:39.293899, lng:-76.6141273},
     "Orlando": {lat:28.5381547, lng:-81.3787351},
 
     //mexico
