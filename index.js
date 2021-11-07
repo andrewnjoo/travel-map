@@ -1,4 +1,4 @@
-var cities = {
+const cities = {
   "Europe": {
     // switz
     "Zurich": { lat: 47.37997, lng: 8.544727 },
@@ -162,7 +162,7 @@ var cities = {
 };
 
 // markers currently added
-var markers = {
+const markers = {
   "North America": [],
   "Europe": [],
   "Asia": [],
@@ -171,9 +171,9 @@ var markers = {
   "South America": []
 };
 
-function initMap() {
+const initMap = () => {
   // map constructor
-  var map = new google.maps.Map(document.getElementById("map"), {
+  const map = new google.maps.Map(document.getElementById("map"), {
     gestureHandling: "auto",
     zoom: 4,
     center: { lat: 37.886925, lng: -122.210777 }, // menlo park
