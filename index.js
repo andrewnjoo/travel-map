@@ -105,6 +105,10 @@ var cities = {
     "Los Angeles": { lat: 34.052234, lng: -118.243685 },
     "San Diego": { lat: 32.715738, lng: -117.161084 },
     "Lake Tahoe": { lat: 39.108065306, lng: -120.03451876 },
+    "Sacramento": { lat: 38.57946, lng: -121.494717 },
+    "Calistoga": { lat: 38.57876, lng: -122.579828 },
+    "SLO": { lat: 35.28266246, lng: -120.6601603 },
+
     "San Francisco": { lat: 37.774136, lng: -122.4190519 },
     "Portland": { lat: 45.51966, lng: -122.675034 },
     "Black Rock City": { lat: 40.9108653, lng: -119.0560009 },
