@@ -266,19 +266,28 @@ function initMap() {
 
       function nested() {
         // change focus to center when clicked
-        if (country == "Asia") {
-          map.setCenter({ lat: 29.714699, lng: 118.337521 }); // Huangshan
-        } else if (country == "North America") {
-          map.setCenter({ lat: 40.820744, lng: -96.70047 }); // Nebraska (lol)
-        } else if (country == "Europe") {
-          map.setCenter({ lat: 47.050168, lng: 8.309307 });
-        } else if (country == "Australia") {
-          map.setCenter({ lat: -28.953512, lng: 135.857048 });
-        } else if (country == "Africa") {
-          map.setCenter({ lat: -24.4457910, lng: 25.92306747 });
-        } else if (country == "South America") {
-          map.setCenter({ lat: 6.998862, lng: -58.11546371 });
-        }
+        switch(country){
+          case 'Asia':
+            map.setCenter({ lat: 29.714699, lng: 118.337521 }); // Huangshan
+            break;
+            case 'North America':
+              map.setCenter({ lat: 40.820744, lng: -96.70047 }); // Nebraska
+              break;
+              case 'Europe':
+                map.setCenter({ lat: 47.050168, lng: 8.309307 });
+                break;
+                case 'Australia':
+                  map.setCenter({ lat: -28.953512, lng: 135.857048 });
+                  break;
+                case 'Africa':
+                  map.setCenter({ lat: -24.4457910, lng: 25.92306747 });
+                  break;
+                  case 'South America':
+                    map.setCenter({ lat: 6.998862, lng: -58.11546371 });
+
+                    break;
+            }
+         
 
         function unvisited(country) {
           swal({
