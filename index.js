@@ -99,23 +99,26 @@ var cities = {
 
   "North America": {
     // usa
+    "Honolulu": {lat:21.306308, lng:-157.85877},
     "Seattle": { lat: 47.606209, lng: -122.332071 },
-    "Las Vegas": { lat: 36.169941, lng: -115.13983 },
     "Los Angeles": { lat: 34.052234, lng: -118.243685 },
     "San Diego": { lat: 32.715738, lng: -117.161084 },
     "Lake Tahoe": { lat: 39.108065306, lng: -120.03451876 },
     "San Francisco": { lat: 37.774136, lng: -122.4190519 },
     "Portland": { lat: 45.51966, lng: -122.675034 },
     "Black Rock City": { lat: 40.9108653, lng: -119.0560009 },
-    "New York": { lat: 40.712775, lng: -74.005973 },
-    "Boston": { lat: 42.360082, lng: -71.05888 },
-    "Washington D.C.": {lat:38.90341, lng:-77.0374563},
+    "Las Vegas": { lat: 36.169941, lng: -115.13983 },
+    "Denver": { lat: 39.7440239, lng: -104.98957 },
+
     "Austin": {lat:30.281495824, lng:-97.74049898},
     "Dallas": {lat:32.8036733, lng:-96.770444},
     "San Antonio": {lat:29.5069808, lng:-98.475975385},
     "Houston": {lat:29.761413, lng:-95.3706327},
+
+    "New York": { lat: 40.712775, lng: -74.005973 },
+    "Boston": { lat: 42.360082, lng: -71.05888 },
+    "Washington D.C.": {lat:38.90341, lng:-77.0374563},
     "Orlando": {lat:28.5381547, lng:-81.3787351},
-    "Honolulu": {lat:21.306308, lng:-157.85877},
 
     //mexico
     "Cabo San Lucas": {lat:22.99646557, lng:-109.910604},
