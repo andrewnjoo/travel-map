@@ -17,6 +17,7 @@ var cities = {
     "Edinburgh": { lat: 55.952604, lng: -3.19124593 },
     "Dublin": { lat: 53.349805, lng: -6.26031 },
     "Skydiving": { lat: 52.485983, lng: 0.091165 },
+    "Worth": { lat: 51.0930566, lng: -0.11896580 },
 
     // germany
     "Berlin": { lat: 52.520007, lng: 13.404954 },
@@ -89,9 +90,14 @@ var cities = {
     "Bangkok":{lat:13.74867, lng: 100.4829244},
     "Phuket":{lat:7.894227767543605, lng: 98.3929683326708},
     "Ko Tao":{lat:10.094809, lng: 99.8388379},
+    "Kanchanaburi":{lat:14.0919356, lng: 99.4182055},
 
     //singapore
     "Singapore":{lat:1.327369920, lng: 103.823598769},
+    
+    //brunei
+    "Brunei":{lat:4.922157, lng: 114.940172},
+
   },
 
   "Australia": {
@@ -113,6 +119,7 @@ var cities = {
     "San Francisco": { lat: 37.774136, lng: -122.4190519 },
     "Portland": { lat: 45.51966, lng: -122.675034 },
     "Black Rock City": { lat: 40.9108653, lng: -119.0560009 },
+    "Reno": { lat: 39.526945, lng: -119.8130985 },
     "Las Vegas": { lat: 36.169941, lng: -115.13983 },
     "Denver": { lat: 39.7440239, lng: -104.98957 },
     "Yellowstone": { lat: 44.428536, lng: -110.587402 },
