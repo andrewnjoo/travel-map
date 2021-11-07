@@ -171,7 +171,7 @@ const markers = {
   "South America": []
 };
 
-const initMap = () => {
+function initMap() {
   // map constructor
   const map = new google.maps.Map(document.getElementById("map"), {
     gestureHandling: "auto",
