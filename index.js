@@ -13,6 +13,7 @@ var cities = {
 
     // UK
     "London": { lat: 51.507351, lng: -0.127758 },
+    "Winchester": { lat: 51.059731, lng: -1.3103569 },
     "Edinburgh": { lat: 55.952604, lng: -3.19124593 },
     "Dublin": { lat: 53.349805, lng: -6.26031 },
 
@@ -63,6 +64,9 @@ var cities = {
     "Jogja": { lat: -7.79538103, lng: 110.368833 },
     "Lombok": { lat: -8.6602898, lng: 116.328035 },
     "Raja Ampat": { lat: -0.1789009, lng: 130.97536 },
+    
+    //malaysia
+    "Tioman": { lat: 2.793104, lng: 104.1682734 },
 
     // korea
     "Seoul": { lat: 37.554694, lng: 126.9863232 },
@@ -74,9 +78,10 @@ var cities = {
     "Beijing": { lat: 39.9042, lng: 116.407396 },
     "Xiamen": { lat: 24.482014, lng: 118.088045 },
 
-    //thai
+    //thailand
     "Bangkok":{lat:13.74867, lng: 100.4829244},
     "Phuket":{lat:7.894227767543605, lng: 98.3929683326708},
+    "Ko Tao":{lat:10.094809, lng: 99.8388379},
 
     //singapore
     "Singapore":{lat:1.327369920, lng: 103.823598769},
