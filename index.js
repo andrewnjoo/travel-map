@@ -21,7 +21,7 @@ var cities = {
 
     // germany
     "Berlin": { lat: 52.520007, lng: 13.404954 },
-    "Freiburg": {lat:48.206394, lng: 7.858726},
+    "Freiburg": {lat:47.99468, lng: 7.847574},
     
     //luxembourg
     "Luxembourg": {lat:49.6176244, lng: 6.1228644},
@@ -79,6 +79,7 @@ var cities = {
     "Seoul": { lat: 37.554694, lng: 126.9863232 },
     // japan
     "Tokyo": { lat: 35.689487, lng: 139.691706 },
+    "Mt. Fuji": { lat: 35.36056, lng: 138.72773238 },
     "Niseko": { lat: 42.807218, lng: 140.6832337 },
 
     // china
