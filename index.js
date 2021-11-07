@@ -20,6 +20,9 @@ var cities = {
     // germany
     "Berlin": { lat: 52.520007, lng: 13.404954 },
     "Freiburg": {lat:48.206394, lng: 7.858726},
+    
+    //luxembourg
+    "Luxembourg": {lat:49.6176244, lng: 6.1228644},
 
     // france
     "Paris": { lat: 48.856614, lng: 2.352222 },
@@ -51,12 +54,14 @@ var cities = {
     //maldives
     "Maldives": { lat: 4.17575, lng: 73.509855 },
 
-    //kazakh
+    //kazakhstan
     "Nur-Sultan": { lat: 51.161007, lng: 71.4659822 },
+    "Almaty": { lat: 43.228205, lng: 76.8562796 },
 
     //india
     "New Delhi": { lat: 28.614104, lng: 77.20887 },
     "Jaipur": { lat: 26.910907, lng: 75.78578 },
+    "Taj Mahal": { lat: 27.1751309, lng: 78.0421007 },
 
     //indonesia
     "Jakarta": { lat: -6.2017397, lng: 106.89204434 },
