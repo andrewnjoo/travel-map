@@ -110,6 +110,7 @@ var cities = {
     "Las Vegas": { lat: 36.169941, lng: -115.13983 },
     "Denver": { lat: 39.7440239, lng: -104.98957 },
     "Yellowstone": { lat: 44.428536, lng: -110.587402 },
+    "Jackson": { lat: 43.4755751, lng: -110.77230584 },
 
     "El Paso": {lat:31.79554358, lng:-106.4510414},
     "Austin": {lat:30.281495824, lng:-97.74049898},
