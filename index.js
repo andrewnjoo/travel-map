@@ -77,6 +77,7 @@ var cities = {
     "Seoul": { lat: 37.554694, lng: 126.9863232 },
     // japan
     "Tokyo": { lat: 35.689487, lng: 139.691706 },
+    "Niseko": { lat: 42.807218, lng: 140.6832337 },
 
     // china
     "Hong Kong": { lat: 22.396428, lng: 114.109497 },
@@ -130,6 +131,8 @@ var cities = {
 
     // canada
     "Vancouver": { lat: 49.282729, lng: -123.120738 },
+    "Whistler": { lat: 50.116187, lng: -122.953552 },
+
   },
   "Africa":{
     //egypt
