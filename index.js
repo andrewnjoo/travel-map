@@ -109,8 +109,14 @@ const cities = {
   "North America": {
     // usa
     "Honolulu": {lat:21.306308, lng:-157.85877},
+    
+    //alaska
     "Juneau": { lat: 58.302532, lng: -134.419492 },
     "Ketchikan": { lat: 55.35104, lng: -131.6728397 },
+    "Sitka": { lat: 57.053961, lng: -135.329605 },
+    "Skagway": { lat: 59.4545851, lng: -135.319197 },
+
+    //west coast
     "Seattle": { lat: 47.606209, lng: -122.332071 },
     "Los Angeles": { lat: 34.052234, lng: -118.243685 },
     "San Diego": { lat: 32.715738, lng: -117.161084 },
