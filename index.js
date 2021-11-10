@@ -23,6 +23,7 @@ const cities = {
     // germany
     "Berlin": { lat: 52.520007, lng: 13.404954 },
     "Freiburg": {lat:47.99468, lng: 7.847574},
+    "Frankfurt": {lat:50.11215, lng: 8.66952951},
     
     // belgium
     "Tomorrowland 2012": {lat:51.0849829, lng: 4.3427353},
