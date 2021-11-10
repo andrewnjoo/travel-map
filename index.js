@@ -10,6 +10,7 @@ const cities = {
     "Rome": { lat: 41.902783, lng: 12.496366 },
     "Florence": { lat: 43.769038, lng: 11.2558944 },
     "Venice": { lat: 45.440847, lng: 12.315515 },
+    "Lake Como": { lat: 46.0151912, lng: 9.25846158 },
 
     // UK
     "London": { lat: 51.507351, lng: -0.127758 },
@@ -23,6 +24,9 @@ const cities = {
     "Berlin": { lat: 52.520007, lng: 13.404954 },
     "Freiburg": {lat:47.99468, lng: 7.847574},
     
+    // belgium
+    "Tomorrowland 2012": {lat:51.0849829, lng: 4.3427353},
+    
     //luxembourg
     "Luxembourg": {lat:49.6176244, lng: 6.1228644},
 
@@ -30,6 +34,8 @@ const cities = {
     "Paris": { lat: 48.856614, lng: 2.352222 },
     "Monaco": { lat: 43.73838088, lng: 7.420744918 },
     "Courchevel": { lat: 45.430625, lng: 6.620229 },
+    "Mt St Michel": { lat: 48.63614, lng: -1.5115506 },
+    "Lourdes": { lat: 43.0954821, lng: -0.049876 },
     
     //spain
     "Madrid": { lat: 40.40675185, lng: -3.6994192871 },
@@ -118,6 +124,7 @@ const cities = {
 
     //west coast
     "Seattle": { lat: 47.606209, lng: -122.332071 },
+    "Paradiso 2016": { lat: 47.1012438, lng: -119.995693 },
     "Los Angeles": { lat: 34.052234, lng: -118.243685 },
     "San Diego": { lat: 32.715738, lng: -117.161084 },
     "Lake Tahoe": { lat: 39.108065306, lng: -120.03451876 },
