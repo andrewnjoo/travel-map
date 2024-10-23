@@ -158,6 +158,7 @@ const cities = {
     //mexico
     "Cabo San Lucas": {lat:22.8838959, lng:-109.911845},
     "Tulum": {lat:20.2146102, lng:-87.462878663},
+    "CDMX": {lat:19.4326077, lng:-99.133208},
 
     // canada
     "Vancouver": { lat: 49.282729, lng: -123.120738 },
