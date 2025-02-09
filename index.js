@@ -88,6 +88,7 @@ const cities = {
     "Tokyo": { lat: 35.689487, lng: 139.691706 },
     "Mt. Fuji": { lat: 35.36056, lng: 138.72773238 },
     "Niseko": { lat: 42.807218, lng: 140.6832337 },
+    "Sapporo": { lat: 43.061771, lng: 141.354451 },
 
     // china
     "Hong Kong": { lat: 22.396428, lng: 114.109497 },
