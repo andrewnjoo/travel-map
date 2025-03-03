@@ -100,6 +100,7 @@ const cities = {
     "Phuket":{lat:7.894227767543605, lng: 98.3929683326708},
     "Ko Tao":{lat:10.094809, lng: 99.8388379},
     "Kanchanaburi":{lat:14.0919356, lng: 99.4182055},
+    "Chiang Mai": { lat: 18.7883, lng: 98.9853 },
 
     //singapore
     "Singapore":{lat:1.327369920, lng: 103.823598769},
