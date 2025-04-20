@@ -94,6 +94,7 @@ const cities = {
     "Hong Kong": { lat: 22.396428, lng: 114.109497 },
     "Beijing": { lat: 39.9042, lng: 116.407396 },
     "Xiamen": { lat: 24.482014, lng: 118.088045 },
+    "Shanghai": { lat: 31.230416, lng: 121.473701 },
 
     //thailand
     "Bangkok":{lat:13.74867, lng: 100.4829244},
