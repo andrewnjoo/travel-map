@@ -75,6 +75,7 @@ const cities = {
     //indonesia
     "Jakarta": { lat: -6.2017397, lng: 106.89204434 },
     "Bali": { lat: -8.394588566, lng: 115.1746802 },
+    "Gili Trawangan": { lat: -8.3549, lng: 116.0717 },
     "Jogja": { lat: -7.79538103, lng: 110.368833 },
     "Lombok": { lat: -8.6602898, lng: 116.328035 },
     "Raja Ampat": { lat: -0.1789009, lng: 130.97536 },
@@ -94,6 +95,8 @@ const cities = {
     "Hong Kong": { lat: 22.396428, lng: 114.109497 },
     "Beijing": { lat: 39.9042, lng: 116.407396 },
     "Xiamen": { lat: 24.482014, lng: 118.088045 },
+    "Shanghai": { lat: 31.230416, lng: 121.473701 },
+    "Suzhou": { lat: 31.298885, lng: 120.585316 },
 
     //thailand
     "Bangkok":{lat:13.74867, lng: 100.4829244},
