@@ -85,6 +85,7 @@ const cities = {
 
     // korea
     "Seoul": { lat: 37.554694, lng: 126.9863232 },
+    "Busan": { lat: 35.1795543, lng: 129.0756416 }, // Pb84d
     // japan
     "Tokyo": { lat: 35.689487, lng: 139.691706 },
     "Mt. Fuji": { lat: 35.36056, lng: 138.72773238 },
